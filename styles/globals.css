@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: shabnam,-apple-system,  sans-serif;
+  direction: rtl;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: shabnam;
+  src: url("/font/Shabnam-FD.woff");
+  font-display: block;
+}
+
+@import url("./custom.css");
+
+input {
+  width: 100%;
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+  background-color: #616161;
+  outline: none;
+  font: inherit;
+  font-size: 0.9rem;
+  padding: 0.8rem;
+  margin: 0.3rem, 0;
+}
+::placeholder {
+  color: #9e9e9e;
+}
+button {
+  background: none;
+  border: none;
+  color: #343434;
+  font: inherit;
+  font-size: 1.2rem;
+}
