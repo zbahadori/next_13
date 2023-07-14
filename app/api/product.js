@@ -7,9 +7,9 @@ async function handler(req, res) {
         await db.collection('products').insertOne({title, price})
     }else {
 
-        res.json({
-            products: data
-        })
+        // res.json({
+        //     products: data
+        // })
     }
 }
 export default handler;
